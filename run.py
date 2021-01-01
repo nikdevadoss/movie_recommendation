@@ -51,5 +51,6 @@ def content_based_recommender(movie_title):
 
 
 if __name__ == "__main__":
-    #simple_top_10 = simple_recommender()
-    content_top_10 = content_based_recommender("The Dark Knight Rises")
+    simple_top_10 = simple_recommender()
+    content_top_10 = content_based_recommender("The Dark Knight")
+    print(content_top_10)
